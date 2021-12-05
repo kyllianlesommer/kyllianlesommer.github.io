@@ -1,0 +1,30 @@
+outils intéressants:
+
+Scan de ports
+
+install( apt install nmap )
+-------------------
+------nmap---------
+-------------------
+commandes:	nmap -sS -sU @ipv4              (scan des ports ouverts)
+		nmap -sS -sU -sV @ipv4          (scan des ports ouverts avec plus d'infos)
+		nmap -sS -sU -T(x) @ipv4        (x de 0 à 5 pour la vitesse de scan/ discrettion)
+		nmap -sS -sU -p @ipv4           (-p pour la totalité des ports)
+		nmap -sO @ipv4                  (-sO avoir des informations sur les protocoles disponibles sur la machine)
+		nmap -6 @ipv6  ( pour faire de l'ipv6)
+
+---------------------
+------Macvendor------
+---------------------
+https://macvendors.com/
+
+vous renseigner les 6 premiers caractères et il vous donne le fabricant du matériel
+
+exemple :           00:50:56:9E:BA:98
+		    --------
+005056 = VMware, Inc.
+
+
+
+
+
