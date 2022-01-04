@@ -1,487 +1,421 @@
 <html>
-
-<head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
-@font-face
-	{font-family:Consolas;
-	panose-1:2 11 6 9 2 2 4 3 2 4;}
-@font-face
-	{font-family:"Segoe UI";
-	panose-1:2 11 5 2 4 2 4 2 2 3;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:0cm;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
-.MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
-.MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
-@page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
-div.WordSection1
-	{page:WordSection1;}
--->
-</style>
-
-</head>
-
-<body lang=FR link=blue vlink="#954F72" style='word-wrap:break-word'>
-
-<div class=WordSection1>
-
-<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal'><b><span style='font-size:24.0pt;font-family:"Times New Roman",serif'>Thalos</span></b></p>
-
-<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal;background:white'><span style='font-size:15.0pt;font-family:
-"Segoe UI",sans-serif;color:#303030'><img width=395 height=158 id="Image 14"
-src="Thalos_fichiers/image001.png"></span></p>
-
-<p class=MsoNormal style='margin-bottom:24.0pt;line-height:normal;background:
-white'><span style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;
-color:#303030'>Mon stage au sein de Thalos n�aurais pas �t� possible si Mr
-Normand connaissais mon grand-p�re, j�ai donc �t� le stagiaire de Sylvain
-Nohannic responsable des syst�mes d�information au service R&amp;D de Thalos.</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>En
-d�but de stage nous avons pr�parer deux machines serveurs pour les envoyer sur
-un bateau, ces machines �tais des machines qui servaient � g�rer les donn�es
-sauvegard�es par les cameras de vid�o-surveillance sur les bateaux �quip�s, il
-y a un dispositif de Redondance de stockage ( RAID 1 ) en cas de probl�mes et
-aussi pour faciliter la r�cup�ration et archivage des vid�os.</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>ce
-syst�me de vid�o surveillance s�appelle OCEANLIVE.</span></p>
-
-<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal;background:white'><span style='font-size:15.0pt;font-family:
-"Segoe UI",sans-serif;color:#303030'><img width=312 height=115 id="Image 13"
-src="Thalos_fichiers/image002.png"
-alt="OceanLive -Thalos, Advanced Maritime Solutions"></span></p>
-
-<p class=MsoNormal style='margin-bottom:24.0pt;line-height:normal;background:
-white'><b><span style='font-size:18.0pt;font-family:"Segoe UI",sans-serif;
-color:#303030'>Nagios</span></b></p>
-
-<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal;background:white'><span style='color:black'><a
-href="https://www.nagios.org/"><span style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;
-text-decoration:none'><img border=0 width=275 height=130 id="Image 12"
-src="Thalos_fichiers/image003.png"
-alt="Installer Nagios 4.3 sur Debian 9 Stretch - Mon pense b�te"></span></a></span><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>logo
-de Nagios</span></p>
-
-<p class=MsoNormal style='margin-bottom:24.0pt;line-height:normal;background:
-white'><span style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;
-color:#303030'>Nagios est une application libre qui permet la surveillance
-syst�me et du r�seau. Elle surveille des h�tes et/ou des services sp�cifi�s,
-alertant lorsque les syst�mes ont des dysfonctionnements et quand ils repassent
-en fonctionnement normal.</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>Par la
-suite j�ai travaill� sur un logiciel nomm� Nagios pour �tudier le Monitoring
-gr�ce au protocole SNMP (&nbsp;<b>S</b>imple&nbsp;<b>N</b>etwork&nbsp;<b>M</b>anagement&nbsp;<b>P</b>rotocol
-)</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>D�but
-sur Nagios, j�ai tout d�abord �tudier comment marchais le protocole SNMP, c�est
-un protocole de Couche 7 du mod�le OSI, il permet la remont�e d�informations
-via des OID</span></p>
-
-<div class=MsoNormal align=center style='margin-top:24.0pt;margin-right:0cm;
-margin-bottom:24.0pt;margin-left:0cm;text-align:center;line-height:normal;
-background:white'><span style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;
-color:#303030'>
-
-<hr size=0 width=100 style='width:75.0pt' align=center>
-
-</span></div>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><b><span
-lang=EN-US style='font-size:18.0pt;font-family:"Segoe UI",sans-serif;
-color:#303030'>WSL (&nbsp;<u>W</u>indows&nbsp;<u>S</u>ubsystem for&nbsp;<u>L</u>inux
-)</span></b></p>
-
-<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal;background:white'><span style='color:black'><a
-href="https://docs.microsoft.com/fr-fr/windows/wsl/about"><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;text-decoration:none'><img
-border=0 width=423 height=238 id="Image 11" src="Thalos_fichiers/image004.jpg"></span></a></span></p>
-
-<p class=MsoNormal style='margin-bottom:24.0pt;line-height:normal;background:
-white'><span style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;
-color:#303030'>Windows Subsystem for Linux est un syst�me de compatibilit�
-entre les deux syst�mes d�exploitation Windows/Linux, pour y ex�cuter des
-binaires comme natifs, est disponible sur Windows 10 et Windows Server 2019. il
-y a deux versions.</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>j�ai
-travaill� avec WSL sur un Windows server 2019, pour l�installer j�ai proc�der
-ainsi:</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><b><span
-style='font-size:13.5pt;font-family:"Segoe UI",sans-serif;color:#303030'>�tape
-1 pr�paration du syst�me :</span></b></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>Lancement
-d�un PowerShell en tant qu�Administrateur</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'><img
-border=0 width=429 height=516 id="Image 10" src="Thalos_fichiers/image005.jpg"></span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>tapez
-la commande suivante pour installer WSL.</span></p>
-
-<div style='border:solid windowtext 1.0pt;padding:12.0pt 12.0pt 12.0pt 12.0pt;
-background:white'>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white;border:none;
-padding:0cm'><b><i><span lang=EN-US style='font-size:10.0pt;font-family:"Courier New";
-color:#303030'>Enable-WindowsOptionalFeature -Online -FeatureName
-Microsoft-Windows-Subsystem-Linux</span></i></b></p>
-
-</div>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><b><span
-style='font-size:13.5pt;font-family:"Segoe UI",sans-serif;color:#303030'>�tape
-2 t�l�chargement de la distribution :</span></b></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>t�l�chargement
-des distributions via ce&nbsp;<a
-href="https://docs.microsoft.com/fr-fr/windows/wsl/install-manual">lien</a></span></p>
-
-<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal;background:white'><span style='font-size:15.0pt;font-family:
-"Segoe UI",sans-serif;color:#303030'><img border=0 width=504 height=371
-id="Image 9" src="Thalos_fichiers/image006.png"></span></p>
-
-<p class=MsoNormal style='margin-bottom:24.0pt;line-height:normal;background:
-white'><span style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;
-color:#303030'>si t�l�charg� un fichier .appx exemple (&nbsp;<b>Ubuntu_2004.2020.424.0_x64.appx&nbsp;</b>)</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>il
-faut tout d�abord le mettre dans le dossier ou il sera utiliser pour faciliter
-l�utilisation</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>une
-fois bien mis, il faut le renommer, avec la commande</span></p>
-
-<div style='border:solid windowtext 1.0pt;padding:12.0pt 12.0pt 12.0pt 12.0pt;
-background:white'>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white;border:none;
-padding:0cm'><b><i><span lang=EN-US style='font-size:10.0pt;font-family:"Courier New";
-color:#303030'>Rename-Item .\Ubuntu_2004.2020.424.0_x64.appx .\Ubuntu.zip</span></i></b></p>
-
-</div>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>par la
-suite, il faut l�extraire</span></p>
-
-<div style='border:solid windowtext 1.0pt;padding:12.0pt 12.0pt 12.0pt 12.0pt;
-background:white'>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white;border:none;
-padding:0cm'><b><i><span style='font-size:10.0pt;font-family:"Courier New";
-color:#303030'>Expand-Archive .\Ubuntu.zip .\Ubuntu</span></i></b></p>
-
-</div>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>En
-parall�le il faut cr�er une nouvelle variable d�environnement pour pouvoir
-lancer la commande wsl,</span></p>
-
-<div style='border:solid windowtext 1.0pt;padding:12.0pt 12.0pt 12.0pt 12.0pt;
-background:white'>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white;border:none;
-padding:0cm'><b><i><span style='font-size:10.0pt;font-family:"Courier New";
-color:#303030'>$userenv =
-System.Environment]::GetEnvironmentVariable(&quot;Path&amp;quot;,
-&amp;quot;User&quot;)
-[System.Environment]::SetEnvironmentVariable(&quot;PATH&quot;, $userenv +
-&quot;;C:\WSL\Ubuntu&quot;, &quot;User&quot;)</span></i></b></p>
-
-</div>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><b><span
-style='font-size:13.5pt;font-family:"Segoe UI",sans-serif;color:#303030'>�tape
-3 installer les distributions :</span></b></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>lancement
-de WSL :</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>Toujours
-dans le PowerShell en administrateur et dans le bon dossier, ( C:\WSL\Ubuntu\ )<br>
-lancez la commande&nbsp;<b>.\ubuntu2004.exe</b>&nbsp;qui elle va lancer la
-distribution Ubuntu pour la Premi�re fois.</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>Quelques
-minutes vont s��couler et elle va vous demander quel utilisateur voulez vous
-cr�er, par exemple<br>
-login :&nbsp;<i>user</i><br>
-password :&nbsp;<i>m4utD2p@5$e</i></span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><b><span
-style='font-size:13.5pt;font-family:"Segoe UI",sans-serif;color:#303030'>�tape
-4 param�trage de la distribution :</span></b></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>Mise �
-jour des paquets (&nbsp;<b><i>sudo apt update&nbsp;</i></b>)</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><b><span
-style='font-size:13.5pt;font-family:"Segoe UI",sans-serif;color:#303030'>�tape
-5 acc�s distant (SSH) :</span></b></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>SSH (
-Secure Shell )</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>Mise �
-jour du paquet ssh<br>
-<b><i>sudo apt install ssh</i></b></span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>modification
-du fichier&nbsp;<b>/etc/ssh/sshd_config</b><br>
-<b><i>sudo vi /etc/ssh/sshd_config</i></b></span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>changement
-du port d�entr�e en&nbsp;<b>22000</b>&nbsp;car celui de Windows est de
-base&nbsp;<b>22</b>&nbsp;donc pour aller sur WSL et non pas Windows en ssh il
-faut faire cela</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span lang=EN-US
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>modification
-lignes :<br>
-<b><i>PermitRootLogin yes<br>
-PasswordAuthentication yes</i></b></span></p>
-
-<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal;background:black'><span style='font-size:15.0pt;font-family:
-"Segoe UI",sans-serif;color:#303030'><img border=0 width=605 height=526
-id="Image 8" src="Thalos_fichiers/image007.jpg"></span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>cr�ation
-des cl�s ssh :<br>
-<b><i>sudo ssh-keygen -A</i></b></span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>D�marrage
-du service ssh :<br>
-<b><i>sudo service ssh start</i></b></span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>pour
-�viter d�entrer le mot de passe nous allons faire<b>&nbsp;visudo</b>.</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>pour
-cela, faire&nbsp;<b><i>sudo visudo</i></b></span></p>
-
-<div class=MsoNormal align=center style='margin-top:24.0pt;margin-right:0cm;
-margin-bottom:24.0pt;margin-left:0cm;text-align:center;line-height:normal;
-background:white'><span style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;
-color:#303030'>
-
-<hr size=0 width=100 style='width:75.0pt' align=center>
-
-</span></div>
-
-<p class=MsoNormal align=center style='margin-top:24.0pt;margin-right:0cm;
-margin-bottom:24.0pt;margin-left:0cm;text-align:center;line-height:normal;
-background:white'><span style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;
-color:#303030'><img border=0 width=519 height=452 id="Image 7"
-src="Thalos_fichiers/image008.png"></span><span style='font-size:15.0pt;
-font-family:"Segoe UI",sans-serif;color:#303030'>r�sultat de la commande sudo
-visudo</span></p>
-
-<p class=MsoNormal style='margin-bottom:24.0pt;line-height:normal;background:
-white'><span style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;
-color:#303030'>modifier la ligne&nbsp;<b>%sudo</b>&nbsp;et mettre au lieu
-de&nbsp;<b>ALL</b>&nbsp;� la fin, mettre&nbsp;<b>NOPASSWD:ALL</b>.</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><b><span
-style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>Partie
-Pare-feu</span></b></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>Si
-nous voulons y acc�der depuis l�ext�rieur il faut donc ouvrir le port 22000,
-dans notre cas c�est sous Windows,</span></p>
-
-<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal;background:white'><span style='font-size:15.0pt;font-family:
-"Segoe UI",sans-serif;color:#303030'><img border=0 width=440 height=359
-id="Image 6" src="Thalos_fichiers/image009.png"></span><span style='font-size:
-15.0pt;font-family:"Courier New";color:#303030'>cr�ation de la r�gle par ports</span></p>
-
-<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal;background:white'><span style='font-size:15.0pt;font-family:
-"Segoe UI",sans-serif;color:#303030'><img border=0 width=440 height=359
-id="Image 5" src="Thalos_fichiers/image010.png"></span><span style='font-size:
-15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>mise du port 22000</span></p>
-
-<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal;background:white'><span style='font-size:15.0pt;font-family:
-"Segoe UI",sans-serif;color:#303030'><img border=0 width=439 height=358
-id="Image 4" src="Thalos_fichiers/image011.png"></span><span style='font-size:
-15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>autorisation de la
-connexion</span></p>
-
-<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal;background:white'><span style='font-size:15.0pt;font-family:
-"Segoe UI",sans-serif;color:#303030'><img border=0 width=439 height=357
-id="Image 3" src="Thalos_fichiers/image012.png"></span><span style='font-size:
-15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>application de cette
-r�gle</span></p>
-
-<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal;background:white'><span style='font-size:15.0pt;font-family:
-"Segoe UI",sans-serif;color:#303030'><img border=0 width=316 height=258
-id="Image 2" src="Thalos_fichiers/image013.png"></span><span style='font-size:
-15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>nommage de cette r�gle</span></p>
-
-<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
-line-height:normal;background:white'><span style='font-size:15.0pt;font-family:
-"Segoe UI",sans-serif;color:#303030'><img border=0 width=550 height=324
-id="Image 1" src="Thalos_fichiers/image014.png"></span><span style='font-size:
-15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>v�rification de la mise
-en place de la r�gle</span></p>
-
-<div class=MsoNormal align=center style='margin-bottom:24.0pt;text-align:center;
-line-height:normal;background:white'><span style='font-size:15.0pt;font-family:
-"Segoe UI",sans-serif;color:#303030'>
-
-<hr size=0 width=100 style='width:75.0pt' align=center>
-
-</span></div>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><b><span
-style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>lancement
-de ssh au d�marrage</span></b></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>Le
-service ssh ne pouvant pas �tre d�marrer par systemd (&nbsp;<b>systemctl enable
-ssh</b>&nbsp;)<br>
-nous avons fait un fichier&nbsp;<i>startssh.bat</i>, dans le dossier de
-d�marrage de Windows, on peux y acc�der en faisant WIN + R&nbsp;<b><i>shell:startup</i></b>.</span></p>
-
-<div style='border:solid windowtext 1.0pt;padding:12.0pt 12.0pt 12.0pt 12.0pt;
-background:white'>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white;border:none;
-padding:0cm'><span lang=EN-US style='font-size:10.0pt;font-family:"Courier New";
-color:#303030'>echo off</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white;border:none;
-padding:0cm'><span lang=EN-US style='font-size:10.0pt;font-family:"Courier New";
-color:#303030'>wsl -e sudo service ssh start</span></p>
-
-<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
-24.0pt;margin-left:0cm;line-height:normal;background:white;border:none;
-padding:0cm'><span style='font-size:10.0pt;font-family:"Courier New";
-color:#303030'>exit</span></p>
-
-</div>
-
-<div class=MsoNormal align=center style='margin-top:24.0pt;margin-right:0cm;
-margin-bottom:24.0pt;margin-left:0cm;text-align:center;line-height:normal;
-background:white'><span style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;
-color:#303030'>
-
-<hr size=0 width=100 style='width:75.0pt' align=center>
-
-</span></div>
-
-<p class=MsoNormal style='margin-top:24.0pt;line-height:normal;background:white'><span
-style='font-size:15.0pt;font-family:"Segoe UI",sans-serif;color:#303030'>Voici
-mon rapport de stage :</span></p>
-
-<p class=MsoNormal>&nbsp;</p>
-
-</div>
-
-</body>
-
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+        <meta name="Generator" content="Microsoft Word 15 (filtered)" />
+        <style>
+            <!--
+             /* Font Definitions */
+             @font-face
+            	{font-family:"Cambria Math";
+            	panose-1:2 4 5 3 5 4 6 3 2 4;}
+            @font-face
+            	{font-family:Calibri;
+            	panose-1:2 15 5 2 2 2 4 3 2 4;}
+            @font-face
+            	{font-family:Consolas;
+            	panose-1:2 11 6 9 2 2 4 3 2 4;}
+            @font-face
+            	{font-family:"Segoe UI";
+            	panose-1:2 11 5 2 4 2 4 2 2 3;}
+             /* Style Definitions */
+             p.MsoNormal, li.MsoNormal, div.MsoNormal
+            	{margin-top:0cm;
+            	margin-right:0cm;
+            	margin-bottom:8.0pt;
+            	margin-left:0cm;
+            	line-height:107%;
+            	font-size:11.0pt;
+            	font-family:"Calibri",sans-serif;}
+            .MsoChpDefault
+            	{font-family:"Calibri",sans-serif;}
+            .MsoPapDefault
+            	{margin-bottom:8.0pt;
+            	line-height:107%;}
+            @page WordSection1
+            	{size:595.3pt 841.9pt;
+            	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+            div.WordSection1
+            	{page:WordSection1;}
+            -->
+        </style>
+    </head>
+
+    <body lang="FR" link="blue" vlink="#954F72" style="word-wrap: break-word;">
+        <div class="WordSection1">
+            <p class="MsoNormal" align="center" style="margin-bottom: 0cm; text-align: center; line-height: normal;">
+                <b><span style="font-size: 24pt; font-family: 'Times New Roman', serif;">Thalos</span></b>
+            </p>
+
+            <p class="MsoNormal" align="center" style="margin-bottom: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;"><img width="395" height="158" id="Image 14" src="Thalos_fichiers/image001.png" /></span>
+            </p>
+
+            <p class="MsoNormal" style="margin-bottom: 24pt; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    Mon stage au sein de Thalos n�aurais pas �t� possible si Mr Normand connaissais mon grand-p�re, j�ai donc �t� le stagiaire de Sylvain Nohannic responsable des syst�mes d�information au service R&amp;D de Thalos.
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    En d�but de stage nous avons pr�parer deux machines serveurs pour les envoyer sur un bateau, ces machines �tais des machines qui servaient � g�rer les donn�es sauvegard�es par les cameras de vid�o-surveillance sur les
+                    bateaux �quip�s, il y a un dispositif de Redondance de stockage ( RAID 1 ) en cas de probl�mes et aussi pour faciliter la r�cup�ration et archivage des vid�os.
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">ce syst�me de vid�o surveillance s�appelle OCEANLIVE.</span>
+            </p>
+
+            <p class="MsoNormal" align="center" style="margin-bottom: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    <img width="312" height="115" id="Image 13" src="Thalos_fichiers/image002.png" alt="OceanLive -Thalos, Advanced Maritime Solutions" />
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-bottom: 24pt; line-height: normal; background: white;">
+                <b><span style="font-size: 18pt; font-family: 'Segoe UI', sans-serif; color: #303030;">Nagios</span></b>
+            </p>
+
+            <p class="MsoNormal" align="center" style="margin-bottom: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="color: black;">
+                    <a href="https://www.nagios.org/">
+                        <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; text-decoration: none;">
+                            <img border="0" width="275" height="130" id="Image 12" src="Thalos_fichiers/image003.png" alt="Installer Nagios 4.3 sur Debian 9 Stretch - Mon pense b�te" />
+                        </span>
+                    </a>
+                </span>
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">logo de Nagios</span>
+            </p>
+
+            <p class="MsoNormal" style="margin-bottom: 24pt; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    Nagios est une application libre qui permet la surveillance syst�me et du r�seau. Elle surveille des h�tes et/ou des services sp�cifi�s, alertant lorsque les syst�mes ont des dysfonctionnements et quand ils repassent en
+                    fonctionnement normal.
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    Par la suite j�ai travaill� sur un logiciel nomm� Nagios pour �tudier le Monitoring gr�ce au protocole SNMP (&nbsp;<b>S</b>imple&nbsp;<b>N</b>etwork&nbsp;<b>M</b>anagement&nbsp;<b>P</b>rotocol )
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    D�but sur Nagios, j�ai tout d�abord �tudier comment marchais le protocole SNMP, c�est un protocole de Couche 7 du mod�le OSI, il permet la remont�e d�informations via des OID
+                </span>
+            </p>
+
+            <div class="MsoNormal" align="center" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    <hr size="0" width="100" style="width: 75pt;" align="center" />
+                </span>
+            </div>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <b><span lang="EN-US" style="font-size: 18pt; font-family: 'Segoe UI', sans-serif; color: #303030;">WSL (&nbsp;<u>W</u>indows&nbsp;<u>S</u>ubsystem for&nbsp;<u>L</u>inux )</span></b>
+            </p>
+
+            <p class="MsoNormal" align="center" style="margin-bottom: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="color: black;">
+                    <a href="https://docs.microsoft.com/fr-fr/windows/wsl/about">
+                        <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; text-decoration: none;"><img border="0" width="423" height="238" id="Image 11" src="Thalos_fichiers/image004.jpg" /></span>
+                    </a>
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-bottom: 24pt; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    Windows Subsystem for Linux est un syst�me de compatibilit� entre les deux syst�mes d�exploitation Windows/Linux, pour y ex�cuter des binaires comme natifs, est disponible sur Windows 10 et Windows Server 2019. il y a
+                    deux versions.
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">j�ai travaill� avec WSL sur un Windows server 2019, pour l�installer j�ai proc�der ainsi:</span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <b><span style="font-size: 13.5pt; font-family: 'Segoe UI', sans-serif; color: #303030;">�tape 1 pr�paration du syst�me :</span></b>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">Lancement d�un PowerShell en tant qu�Administrateur</span>
+            </p>
+
+            <p class="MsoNormal" style="margin-bottom: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;"><img border="0" width="429" height="516" id="Image 10" src="Thalos_fichiers/image005.jpg" /></span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">tapez la commande suivante pour installer WSL.</span>
+            </p>
+
+            <div style="border: solid windowtext 1pt; padding: 12pt 12pt 12pt 12pt; background: white;">
+                <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white; border: none; padding: 0cm;">
+                    <b>
+                        <i><span lang="EN-US" style="font-size: 10pt; font-family: 'Courier New'; color: #303030;">Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</span></i>
+                    </b>
+                </p>
+            </div>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <b><span style="font-size: 13.5pt; font-family: 'Segoe UI', sans-serif; color: #303030;">�tape 2 t�l�chargement de la distribution :</span></b>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">t�l�chargement des distributions via ce&nbsp;<a href="https://docs.microsoft.com/fr-fr/windows/wsl/install-manual">lien</a></span>
+            </p>
+
+            <p class="MsoNormal" align="center" style="margin-bottom: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;"><img border="0" width="504" height="371" id="Image 9" src="Thalos_fichiers/image006.png" /></span>
+            </p>
+
+            <p class="MsoNormal" style="margin-bottom: 24pt; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">si t�l�charg� un fichier .appx exemple (&nbsp;<b>Ubuntu_2004.2020.424.0_x64.appx&nbsp;</b>)</span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">il faut tout d�abord le mettre dans le dossier ou il sera utiliser pour faciliter l�utilisation</span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">une fois bien mis, il faut le renommer, avec la commande</span>
+            </p>
+
+            <div style="border: solid windowtext 1pt; padding: 12pt 12pt 12pt 12pt; background: white;">
+                <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white; border: none; padding: 0cm;">
+                    <b>
+                        <i><span lang="EN-US" style="font-size: 10pt; font-family: 'Courier New'; color: #303030;">Rename-Item .\Ubuntu_2004.2020.424.0_x64.appx .\Ubuntu.zip</span></i>
+                    </b>
+                </p>
+            </div>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">par la suite, il faut l�extraire</span>
+            </p>
+
+            <div style="border: solid windowtext 1pt; padding: 12pt 12pt 12pt 12pt; background: white;">
+                <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white; border: none; padding: 0cm;">
+                    <b>
+                        <i><span style="font-size: 10pt; font-family: 'Courier New'; color: #303030;">Expand-Archive .\Ubuntu.zip .\Ubuntu</span></i>
+                    </b>
+                </p>
+            </div>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">En parall�le il faut cr�er une nouvelle variable d�environnement pour pouvoir lancer la commande wsl,</span>
+            </p>
+
+            <div style="border: solid windowtext 1pt; padding: 12pt 12pt 12pt 12pt; background: white;">
+                <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white; border: none; padding: 0cm;">
+                    <b>
+                        <i>
+                            <span style="font-size: 10pt; font-family: 'Courier New'; color: #303030;">
+                                $userenv = System.Environment]::GetEnvironmentVariable(&quot;Path&amp;quot;, &amp;quot;User&quot;) [System.Environment]::SetEnvironmentVariable(&quot;PATH&quot;, $userenv + &quot;;C:\WSL\Ubuntu&quot;,
+                                &quot;User&quot;)
+                            </span>
+                        </i>
+                    </b>
+                </p>
+            </div>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <b><span style="font-size: 13.5pt; font-family: 'Segoe UI', sans-serif; color: #303030;">�tape 3 installer les distributions :</span></b>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">lancement de WSL :</span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    Toujours dans le PowerShell en administrateur et dans le bon dossier, ( C:\WSL\Ubuntu\ )<br />
+                    lancez la commande&nbsp;<b>.\ubuntu2004.exe</b>&nbsp;qui elle va lancer la distribution Ubuntu pour la Premi�re fois.
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    Quelques minutes vont s��couler et elle va vous demander quel utilisateur voulez vous cr�er, par exemple<br />
+                    login :&nbsp;<i>user</i><br />
+                    password :&nbsp;<i>m4utD2p@5$e</i>
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <b><span style="font-size: 13.5pt; font-family: 'Segoe UI', sans-serif; color: #303030;">�tape 4 param�trage de la distribution :</span></b>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    Mise � jour des paquets (&nbsp;<b><i>sudo apt update&nbsp;</i></b>)
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <b><span style="font-size: 13.5pt; font-family: 'Segoe UI', sans-serif; color: #303030;">�tape 5 acc�s distant (SSH) :</span></b>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">SSH ( Secure Shell )</span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    Mise � jour du paquet ssh<br />
+                    <b><i>sudo apt install ssh</i></b>
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    modification du fichier&nbsp;<b>/etc/ssh/sshd_config</b><br />
+                    <b><i>sudo vi /etc/ssh/sshd_config</i></b>
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    changement du port d�entr�e en&nbsp;<b>22000</b>&nbsp;car celui de Windows est de base&nbsp;<b>22</b>&nbsp;donc pour aller sur WSL et non pas Windows en ssh il faut faire cela
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span lang="EN-US" style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    modification lignes :<br />
+                    <b>
+                        <i>
+                            PermitRootLogin yes<br />
+                            PasswordAuthentication yes
+                        </i>
+                    </b>
+                </span>
+            </p>
+
+            <p class="MsoNormal" align="center" style="margin-bottom: 0cm; text-align: center; line-height: normal; background: black;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;"><img border="0" width="605" height="526" id="Image 8" src="Thalos_fichiers/image007.jpg" /></span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    cr�ation des cl�s ssh :<br />
+                    <b><i>sudo ssh-keygen -A</i></b>
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    D�marrage du service ssh :<br />
+                    <b><i>sudo service ssh start</i></b>
+                </span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">pour �viter d�entrer le mot de passe nous allons faire<b>&nbsp;visudo</b>.</span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    pour cela, faire&nbsp;<b><i>sudo visudo</i></b>
+                </span>
+            </p>
+
+            <div class="MsoNormal" align="center" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    <hr size="0" width="100" style="width: 75pt;" align="center" />
+                </span>
+            </div>
+
+            <p class="MsoNormal" align="center" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;"><img border="0" width="519" height="452" id="Image 7" src="Thalos_fichiers/image008.png" /></span>
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">r�sultat de la commande sudo visudo</span>
+            </p>
+
+            <p class="MsoNormal" style="margin-bottom: 24pt; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">modifier la ligne&nbsp;<b>%sudo</b>&nbsp;et mettre au lieu de&nbsp;<b>ALL</b>&nbsp;� la fin, mettre&nbsp;<b>NOPASSWD:ALL</b>.</span>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <b><span style="font-size: 12pt; font-family: 'Segoe UI', sans-serif; color: #303030;">Partie Pare-feu</span></b>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">Si nous voulons y acc�der depuis l�ext�rieur il faut donc ouvrir le port 22000, dans notre cas c�est sous Windows,</span>
+            </p>
+
+            <p class="MsoNormal" align="center" style="margin-bottom: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;"><img border="0" width="440" height="359" id="Image 6" src="Thalos_fichiers/image009.png" /></span>
+                <span style="font-size: 15pt; font-family: 'Courier New'; color: #303030;">cr�ation de la r�gle par ports</span>
+            </p>
+
+            <p class="MsoNormal" align="center" style="margin-bottom: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;"><img border="0" width="440" height="359" id="Image 5" src="Thalos_fichiers/image010.png" /></span>
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">mise du port 22000</span>
+            </p>
+
+            <p class="MsoNormal" align="center" style="margin-bottom: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;"><img border="0" width="439" height="358" id="Image 4" src="Thalos_fichiers/image011.png" /></span>
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">autorisation de la connexion</span>
+            </p>
+
+            <p class="MsoNormal" align="center" style="margin-bottom: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;"><img border="0" width="439" height="357" id="Image 3" src="Thalos_fichiers/image012.png" /></span>
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">application de cette r�gle</span>
+            </p>
+
+            <p class="MsoNormal" align="center" style="margin-bottom: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;"><img border="0" width="316" height="258" id="Image 2" src="Thalos_fichiers/image013.png" /></span>
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">nommage de cette r�gle</span>
+            </p>
+
+            <p class="MsoNormal" align="center" style="margin-bottom: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;"><img border="0" width="550" height="324" id="Image 1" src="Thalos_fichiers/image014.png" /></span>
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">v�rification de la mise en place de la r�gle</span>
+            </p>
+
+            <div class="MsoNormal" align="center" style="margin-bottom: 24pt; text-align: center; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    <hr size="0" width="100" style="width: 75pt;" align="center" />
+                </span>
+            </div>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <b><span style="font-size: 12pt; font-family: 'Segoe UI', sans-serif; color: #303030;">lancement de ssh au d�marrage</span></b>
+            </p>
+
+            <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    Le service ssh ne pouvant pas �tre d�marrer par systemd (&nbsp;<b>systemctl enable ssh</b>&nbsp;)<br />
+                    nous avons fait un fichier&nbsp;<i>startssh.bat</i>, dans le dossier de d�marrage de Windows, on peux y acc�der en faisant WIN + R&nbsp;<b><i>shell:startup</i></b>.
+                </span>
+            </p>
+
+            <div style="border: solid windowtext 1pt; padding: 12pt 12pt 12pt 12pt; background: white;">
+                <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white; border: none; padding: 0cm;">
+                    <span lang="EN-US" style="font-size: 10pt; font-family: 'Courier New'; color: #303030;">echo off</span>
+                </p>
+
+                <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white; border: none; padding: 0cm;">
+                    <span lang="EN-US" style="font-size: 10pt; font-family: 'Courier New'; color: #303030;">wsl -e sudo service ssh start</span>
+                </p>
+
+                <p class="MsoNormal" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; line-height: normal; background: white; border: none; padding: 0cm;">
+                    <span style="font-size: 10pt; font-family: 'Courier New'; color: #303030;">exit</span>
+                </p>
+            </div>
+
+            <div class="MsoNormal" align="center" style="margin-top: 24pt; margin-right: 0cm; margin-bottom: 24pt; margin-left: 0cm; text-align: center; line-height: normal; background: white;">
+                <span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">
+                    <hr size="0" width="100" style="width: 75pt;" align="center" />
+                </span>
+            </div>
+
+            <p class="MsoNormal" style="margin-top: 24pt; line-height: normal; background: white;"><span style="font-size: 15pt; font-family: 'Segoe UI', sans-serif; color: #303030;">Voici mon rapport de stage :</span></p>
+
+            <p class="MsoNormal">&nbsp;</p>
+        </div>
+    </body>
 </html>
+
