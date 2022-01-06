@@ -250,9 +250,29 @@ function foo() {
 <h3>Localiser une adresse IP</h3>
 <a href="https://asciinema.org/a/p4zDIqCau3CegPeCIAKjWIiMJ" target="_blank"><img src="https://asciinema.org/a/p4zDIqCau3CegPeCIAKjWIiMJ.svg" /></a>
 <br>
+<h3>Modification du bashrc pour des alias</h3>
+<br>
+<p> dans le dossier personnel de chaque utilisateur linux nous avons un fichier qui s'apelle .bashrc qui est invisible, pour le voir il faut donc utiliser la commande "ls -a".
+dedans nous pouvons trouver des paramèttres du compte.
+
+un d'entre eux est très utile, il permet de créer des alias de commandes:
+par exemple, la commande "ll" n'existe pas, elle à été crée pour éviter de taper "ls -l"
+la syntaxe n'est pas compliquée, il sufit de reproduire de schema :
+alias (la commande que vous voullez créer)='la commande a remplacer'
+
+alias osas='wslfetch'
+alias h='cacaclock'
+alias s='sudo'
+alias ouwem='date'
+alias shut='s shutdown -h'
+alias geoip='s geoiplookup -f /usr/share/GeoIP/GeoLiteCity.dat'
+alias resapache='s /etc/init.d/apache2 restart'
+alias resmysql='s /etc/init.d/mysql restart'
+alias .. ='cd ..'
+</p>
+
 <h3>Autres recherches :</h3>
 <br>
-<p>- modification du bashrc pour des alias</p>
 <p>- sudoers</p>
 <p>- correcteur d'orthographe</p>
 <p>- serveur web</p>
