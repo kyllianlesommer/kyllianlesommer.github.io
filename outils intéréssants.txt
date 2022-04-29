@@ -23,8 +23,3 @@ vous renseigner les 6 premiers caract√®res et il vous donne le fabricant du mat√
 exemple :           00:50:56:9E:BA:98
 		    --------
 005056 = VMware, Inc.
-
-
-
-
-
